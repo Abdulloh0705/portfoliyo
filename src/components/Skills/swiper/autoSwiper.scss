@@ -1,0 +1,62 @@
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .swiper {
+    width: 100%;
+    max-width: 700px;
+    padding-top: 40px;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f1f1f !important;
+    padding: 20px;
+  }
+  
+  /* Slayd rasmlariga proporsional o'lcham berish */
+  .slide-image {
+    width: 100%;
+    max-width: 300px; /* Maksimal kenglik */
+    height: auto; /* Proporsional balandlik */
+    aspect-ratio: 1 / 1; /* Kvadrat proporsiya */
+    object-fit: cover; /* Rasmlarni markazda joylashtirish */
+    border-radius: 9px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  }
+  /* Responsive dizayn */
+  @media (max-width: 768px) {
+    .slide-image {
+      max-width: 200px; /* Mobil qurilmalarda kichikroq */
+    }
+  }
+  
+
+
+  /* Specific styles for each slide */
+  .swiper_box_img1 {
+  width: 200px !important;
+  height: 100% !important;
+    box-shadow: 0 4px 20px rgba(241, 101, 41, 0.8); /* HTML: orange */
+  }
+  .swiper_box_img2 {
+    box-shadow: 0 4px 20px rgba(41, 101, 241, 0.8); /* CSS: blue */
+   
+  }
+  .swiper_box_img3 {
+    box-shadow: 0 4px 20px rgba(247, 223, 30, 0.8); /* JS: yellow */
+  }
+  .swiper_box_img4 {
+    box-shadow: 0 4px 20px rgba(118, 74, 188, 0.8); /* Redux: purple */
+  }
+  .swiper_box_img5 {
+    box-shadow: 0 4px 20px rgba(97, 218, 251, 0.8); /* React: cyan */
+  }
+  
