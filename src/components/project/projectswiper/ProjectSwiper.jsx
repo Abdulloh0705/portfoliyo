@@ -29,27 +29,27 @@ const ProjectSwiper = () => {
             >
                 <SwiperSlide>
                     <a href="https://abdulloh0705.github.io/VueCinema/">
-                        <img src="/public/vue.jpg" alt="" className="swiper_img" />
+                        <img src="./vue.jpg" alt="" className="swiper_img" />
                     </a>
                 </SwiperSlide>
                 <SwiperSlide>
                     <a href="https://proweb-henna.vercel.app">
-                        <img src="/public/niga.jpg" alt="" className="swiper_img" />
+                        <img src="./niga.jpg" alt="" className="swiper_img" />
                     </a>
                 </SwiperSlide>
                 <SwiperSlide>
                     <a href="https://nike-react-flax.vercel.app">
-                        <img src="/public/go trip.jpg" alt="" className="swiper_img" />
+                        <img src="./go trip.jpg" alt="" className="swiper_img" />
                     </a>
                 </SwiperSlide>
                 <SwiperSlide>
                     <a href="https://kran-new1.vercel.app">
-                        <img src="/public/kran.jpg" alt="" className="swiper_img" />
+                        <img src="./kran.jpg" alt="" className="swiper_img" />
                     </a>
                 </SwiperSlide>
                 <SwiperSlide>
                     <a href="https://click-house-ten.vercel.app/">
-                        <img src="/public/mebel.jpg" alt="" className="swiper_img" />
+                        <img src="./mebel.jpg" alt="" className="swiper_img" />
                     </a>
                 </SwiperSlide>
             </Swiper>

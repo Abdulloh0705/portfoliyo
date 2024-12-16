@@ -10,11 +10,11 @@ import { Autoplay, Navigation, Pagination } from "swiper/modules";
 
 const AutoSwiper = () => {
     const slides = [
-        { src: "/public/html.png", alt: "HTML Logo", shadowColor: "rgba(255, 102, 0, 0.5)" }, // HTML
-        { src: "/public/css.png", alt: "CSS Logo", shadowColor: "rgba(0, 102, 255, 0.5)" }, // CSS
-        { src: "/public/js2.png", alt: "JavaScript Logo", shadowColor: "rgba(247, 223, 30, 0.5)" }, // JS
-        { src: "/public/redux.png", alt: "Redux Logo", shadowColor: "rgba(118, 74, 188, 0.5)" }, // Redux
-        { src: "/public/react1.png", alt: "React Logo", shadowColor: "rgba(97, 219, 251, 0.5)" }, // React
+        { src: "./html.png", alt: "HTML Logo", shadowColor: "rgba(255, 102, 0, 0.5)" }, // HTML
+        { src: "./css.png", alt: "CSS Logo", shadowColor: "rgba(0, 102, 255, 0.5)" }, // CSS
+        { src: "./js2.png", alt: "JavaScript Logo", shadowColor: "rgba(247, 223, 30, 0.5)" }, // JS
+        { src: "./redux.png", alt: "Redux Logo", shadowColor: "rgba(118, 74, 188, 0.5)" }, // Redux
+        { src: "./react1.png", alt: "React Logo", shadowColor: "rgba(97, 219, 251, 0.5)" }, // React
     ];
 
 

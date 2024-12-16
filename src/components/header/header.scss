@@ -6,58 +6,113 @@
   flex-direction: column;
   align-items: center;
   background: #1f1f1f;
-    &_box {
-        display: flex;
-        justify-content: center;
-        padding-top: 30px;
-    }
 
-    &_esse {
-        width: 450px;
-        align-self: center;
-    }
-
-    &_title {
-        padding-top: 90px;
-        color: #8ad6eb;
-        font-size: 70px;
-        font-weight: 900;
-    }
-
-    &_text {
-        color: #86c2d3;
-        font-size: 23px;
-        padding: 10px;
-    }
-
-}
-
-// .img_izana {
-//     border-radius: 50%; /* Rasm shakli uchun */
-//     box-shadow: 35px 30px 10px rgba(3, 47, 57, 0.9); /* To'g'ri qiymatlar */
-
-// }
-.img_izana {
-    border-radius: 50%; /* Rasm shakli uchun */
-    animation: colorful-shadow 2s infinite; /* Animatsiya qo'shish */
+  &_box {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
   }
-  
-  /* @keyframes animatsiyasi */
+
+  &_esse {
+    width: 450px;
+    align-self: center;
+  }
+
+  &_title {
+    padding-top: 90px;
+    color: #8ad6eb;
+    font-size: 70px;
+    font-weight: 900;
+  }
+
+  &_text {
+    color: #86c2d3;
+    font-size: 23px;
+    padding: 10px;
+  }
+
+  .img_izana {
+    border-radius: 50%;
+    animation: colorful-shadow 2s infinite;
+  }
+
   @keyframes colorful-shadow {
     0% {
-      box-shadow: 0px 1px 20px rgba(42, 42, 42, 0.8); /* Qizil */
+      box-shadow: 0px 1px 20px rgba(42, 42, 42, 0.8);
     }
     25% {
-      box-shadow:0px 1px 20px rgba(74, 74, 74, 0.8); /* Yashil */
+      box-shadow: 0px 1px 20px rgba(74, 74, 74, 0.8);
     }
     50% {
-      box-shadow: 0px 1px 20px rgba(97, 97, 97, 0.8); /* Ko'k */
+      box-shadow: 0px 1px 20px rgba(97, 97, 97, 0.8);
     }
     75% {
-      box-shadow: 0px 1px 20px rgba(164, 164, 164, 0.8); /* Sariq */
+      box-shadow: 0px 1px 20px rgba(164, 164, 164, 0.8);
     }
     100% {
-      box-shadow: 0px 1px 20px rgba(209, 209, 209, 0.8); /* Pushti */
+      box-shadow: 0px 1px 20px rgba(209, 209, 209, 0.8);
     }
   }
-  
+
+  // Media uchun qoidalar
+  @media (max-width: 1024px) {
+    
+    .img_izana{
+      width: 400px;
+      height: 100%;
+    }
+    &_title {
+      font-size: 60px;
+      padding-top: 50px;
+    }
+  }
+
+  @media (max-width: 768px) {
+  //  &_box{
+  //   display: flex;
+  //   justify-content: center;
+  //  }
+    &_esse {
+   
+      width:380px;
+    }
+    &_title {
+      font-size: 45px;
+    }
+    .img_izana{
+      width: 300px;
+      height: 100%;
+    }
+    &_text {
+      font-size: 20px;
+    }
+  }
+
+  @media (max-width: 425px) {
+    &_box {
+      display: flex;
+      justify-content: center;
+     }
+    &_esse {
+      width: 300px;
+    }
+    &_title {
+      font-size: 40px;
+    }
+    &_text {
+      font-size: 16px;
+    }
+  }
+
+  @media (max-width: 375px) {
+    &_esse {
+      width: 280px;
+    }
+    &_title {
+      font-size: 35px;
+    }
+    &_text {
+      font-size: 14px;
+    }
+  }
+}

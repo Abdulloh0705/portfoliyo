@@ -14,7 +14,7 @@ const  Header = () => {
               <p className="header_text">Frontend Dasturchi</p>
             </div>
             <div className="header_img">
-              <img className="img_izana" src="/public//salom.png" alt="Odam Rasmi" />
+              <img className="img_izana" src="./salom.png" alt="Odam Rasmi" />
             </div>
           </div>
         </div>

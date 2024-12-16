@@ -12,7 +12,7 @@ const Section = () => {
               </h2>
             <div className="about_esse">
               <div className="about_img">
-              <img src="/public/coputer.png" alt=" bu yerda react rasmi bor" />
+              <img src="./coputer.png" alt=" bu yerda react rasmi bor" />
             </div>
               <div className="about_text_box">
               <p className="about_text">

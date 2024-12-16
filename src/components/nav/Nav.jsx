@@ -1,12 +1,21 @@
 import React from 'react'
 import "./nav.scss"
+import { TbMenuOrder } from 'react-icons/tb'
 
 const Nav = () => {
   return (
     <div>
       <div className="nav">
         <div className="container">
+        <div className="btn_box">
+           <button className="nav_btn">
+              <div className="btn_icon">
+                <TbMenuOrder />
+              </div>
+            </button>
+           </div>
           <div className="nav__box">
+          
             <ul className="nav__list">
               <li className="nav__item"><a href="" className="nav__link">Home</a></li>
               <li className="nav__item"><a href="#section" className="nav__link">About Me</a></li>
