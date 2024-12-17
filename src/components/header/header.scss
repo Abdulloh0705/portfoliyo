@@ -68,10 +68,12 @@
   }
 
   @media (max-width: 768px) {
-  //  &_box{
-  //   display: flex;
-  //   justify-content: center;
-  //  }
+   &_box{
+   flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 40px;
+   }
     &_esse {
    
       width:380px;
@@ -79,9 +81,13 @@
     &_title {
       font-size: 45px;
     }
+    &_box{
+   
+    }
     .img_izana{
       width: 300px;
       height: 100%;
+      
     }
     &_text {
       font-size: 20px;

@@ -1,54 +1,54 @@
 @keyframes borderGradientAnimation {
     0% {
       background: linear-gradient(#212121, #212121) padding-box,
-                  linear-gradient(145deg, transparent 35%, #e81cff, #40c9ff) border-box;
+                  linear-gradient(0deg, transparent -100%, #e81cff, #40c9ff) border-box;
     }
     15% {
         background: linear-gradient(#212121, #212121) padding-box,
-                    linear-gradient(145deg, transparent 35%, #40c9ff, #e81cff) border-box;
+                    linear-gradient(60deg, transparent -100%, #40c9ff, #e81cff) border-box;
       }
       25% {
         background: linear-gradient(#212121, #212121) padding-box,
-                    linear-gradient(145deg, transparent 35%, #e81cff, #40c9ff) border-box;
+                    linear-gradient(120deg, transparent -100%, #e81cff, #40c9ff) border-box;
       }
       35% {
         background: linear-gradient(#212121, #212121) padding-box,
-                    linear-gradient(145deg, transparent 35%, #40c9ff, #e81cff) border-box;
+                    linear-gradient(180deg, transparent -100%, #40c9ff, #e81cff) border-box;
       }
       45% {
         background: linear-gradient(#212121, #212121) padding-box,
-                    linear-gradient(145deg, transparent 35%, #e81cff, #40c9ff) border-box;
+                    linear-gradient(240deg, transparent -100%, #e81cff, #40c9ff) border-box;
       }
     50% {
       background: linear-gradient(#212121, #212121) padding-box,
-                  linear-gradient(145deg, transparent 35%, #40c9ff, #e81cff) border-box;
+                  linear-gradient(300deg, transparent -100%, #40c9ff, #e81cff) border-box;
     }
     65% {
         background: linear-gradient(#212121, #212121) padding-box,
-                    linear-gradient(145deg, transparent 35%, #e81cff, #40c9ff) border-box;
+                    linear-gradient(360deg, transparent -100%, #e81cff, #40c9ff) border-box;
       }
       75% {
         background: linear-gradient(#212121, #212121) padding-box,
-                    linear-gradient(145deg, transparent 35%, #40c9ff, #e81cff) border-box;
+                    linear-gradient(420deg, transparent -100%, #40c9ff, #e81cff) border-box;
       }
       85% {
         background: linear-gradient(#212121, #212121) padding-box,
-                    linear-gradient(145deg, transparent 35%, #e81cff, #40c9ff) border-box;
+                    linear-gradient(480deg, transparent -100%, #e81cff, #40c9ff) border-box;
       } 
       95% {
         background: linear-gradient(#212121, #212121) padding-box,
-                    linear-gradient(145deg, transparent 35%, #40c9ff, #e81cff) border-box;
+                    linear-gradient(540deg, transparent -100%, #40c9ff, #e81cff) border-box;
       }
    100% {
       background: linear-gradient(#212121, #212121) padding-box,
-                  linear-gradient(145deg, transparent 35%, #e81cff, #40c9ff) border-box;
+                  linear-gradient(600deg, transparent -100%, #e81cff, #40c9ff) border-box;
     } 
   }
   
   .form-container {
     width: 400px;
     background: linear-gradient(#212121, #212121) padding-box,
-                linear-gradient(145deg, transparent 35%, #e81cff, #40c9ff) border-box;
+                linear-gradient(90deg, transparent -100%, #e81cff, #40c9ff) border-box;
     border: 2px solid transparent;
     padding: 32px 24px;
     font-size: 14px;
@@ -61,7 +61,7 @@
     border-radius: 16px;
   
     /* Animatsiya qo'shildi */
-    animation: borderGradientAnimation 7s infinite linear;
+    animation: borderGradientAnimation 5s infinite linear ;
   }
   
   .form-container button:active {
