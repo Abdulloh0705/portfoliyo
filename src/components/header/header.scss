@@ -9,8 +9,9 @@
 
   &_box {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     padding-top: 30px;
+
   }
 
   &_esse {
@@ -30,11 +31,12 @@
     font-size: 23px;
     padding: 10px;
   }
-
-  .img_izana {
-    border-radius: 50%;
-    animation: colorful-shadow 2s infinite;
-  }
+.header_img{
+  display: flex;
+  align-self: center;
+ padding-top: 30px;
+}
+  
 
   @keyframes colorful-shadow {
     0% {
@@ -81,9 +83,7 @@
     &_title {
       font-size: 45px;
     }
-    &_box{
    
-    }
     .img_izana{
       width: 300px;
       height: 100%;

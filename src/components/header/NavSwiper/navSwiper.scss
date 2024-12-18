@@ -1,0 +1,22 @@
+.navSwiper {
+display: flex;
+align-items: center;
+padding-top: 20px;
+  .swiper_imgs {
+    max-height: 300px;
+    padding-bottom: 50px;
+  }
+
+  .swiper {
+    width: 300px;
+    border-radius: 15px;
+    animation: colorful-shadow 2s infinite;
+  }
+
+
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none;
+  }
+}
