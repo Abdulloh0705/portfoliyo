@@ -155,10 +155,63 @@
     flex-direction: column;
     align-items: center;
     background: #1f1f1f;
-  }
-  .feed_box{
+  
+  &_box{
     display: flex;
     justify-content: center;
   }
   
-  
+  &_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px 40px 0px;
+    background: linear-gradient(to right, #9f9f9f 0, #fff 10%, #868686 20%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 1000%;
+    color: #fff;
+    animation: during 3s linear infinite;
+    font-size: 40px;
+  }
+  &_contact{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    padding: 20px;
+    &_call{
+      display: flex;
+      align-items: center;
+      gap: 9px;
+     
+    }
+   
+    &_teg{
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      
+    }
+  }
+}
+.feed_call_title,
+.feed_teg_title{
+  color: #e5eaeb;
+  font-family:"Inter:ital";
+}
+.contact_teg_icon,
+.contact_call_icon{
+  font-size: 26px;
+  color: #9e9e9e;
+}
+@media (max-width: 425px) {
+  .feed_contact{
+gap: 100px !important;}
+}
+
+@media (max-width: 375px) {
+  .feed_contact{
+    gap: 50px !important;}
+}
+

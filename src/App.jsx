@@ -5,7 +5,7 @@ import Section from './components/section/Section'
 import Skills from './components/Skills/Skills'
 import Project from './components/project/Project'
 import Mail from './components/feedbakc/Mail'
-
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 
 
@@ -18,7 +18,11 @@ const App = () => {
         <Section />
         <Skills/>
         <Project/>
-        <Mail/>
+        <Router>
+            <Routes>
+                <Route path="/" element={<Mail />} />
+            </Routes>
+        </Router>
       </div>
     
     </>
