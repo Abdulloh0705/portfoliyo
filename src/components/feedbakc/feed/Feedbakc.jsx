@@ -18,8 +18,8 @@ const Feedback = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        const token = "7942519289:AAHbS0Rk_bdgRUt97EANhxNcjg85GfwyFEQ";
-        const chat_id = "-4644648528";
+        const token = "7659807433:AAF9tbZPQU-EyTHNoSsyEDqDv73guH2Tklw";
+        const chat_id = "-1002424674291";
         const my_text = `Email: ${formData.email}\nMessage: ${formData.textarea}`;
         const url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${encodeURIComponent(my_text)}`;
 
@@ -36,7 +36,7 @@ const Feedback = () => {
         setFormData({
             email: '',
             textarea: '',
-        }); // Clear the form fields
+        }); 
     };
 
     return (
