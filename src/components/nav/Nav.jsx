@@ -41,9 +41,9 @@ const Nav = () => {
               </a>
             </li>
           </ul>
-          <a href="index.html">
+         
             <h2 className="nav__logo">Z</h2>
-          </a>
+          
           <ul className={`nav__list ${isActive ? "show" : ""}`}>
             <li className="nav__item">
               <a href="#project" className="nav__link">
@@ -56,7 +56,7 @@ const Nav = () => {
               </a>
             </li>
             <li className="nav__item">
-              <a href="#feed" className="nav__link">
+              <a href="#main" className="nav__link">
                 Feedback
               </a>
             </li>

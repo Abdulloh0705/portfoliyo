@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const Mail = () => {
     return (
         <>
-            <div id="feed" className="feed">
+            <div id="main" className="feed">
                 <div className="container">
                     <h2 className="feed_title">Fikr-mulohaza</h2>
                     <div className="feed_box">
