@@ -41,9 +41,9 @@ const Nav = () => {
               </a>
             </li>
           </ul>
-         
+         <a href="/">
             <h2 className="nav__logo">Z</h2>
-          
+            </a>
           <ul className={`nav__list ${isActive ? "show" : ""}`}>
             <li className="nav__item">
               <a href="#project" className="nav__link">
